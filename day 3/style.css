@@ -1,0 +1,17 @@
+.parent{
+    display: grid;
+    /*grid-template-columns: repeat(4,50px);*/
+    
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+
+}
+.child{
+    display: flex;
+    /* grid-template-rows: 50px 75px 50px; */
+    background-color: blue;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 10px;
+    gap: 10px;
+}

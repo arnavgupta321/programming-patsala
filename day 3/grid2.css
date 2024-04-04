@@ -1,0 +1,42 @@
+.parent{
+display: grid;
+background-color: rgb(246, 115, 115);
+column-gap: 10px;
+row-gap: 10px;
+grid-template-rows: repeat(3,50px);
+text-align: center;
+}
+.child{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+}
+
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: blueviolet;
+
+}
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: bisque;
+}
+.main{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: brown;
+}
+.right{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: black;
+}
+.left{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: yellow;
+}
