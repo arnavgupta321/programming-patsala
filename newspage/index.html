@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dynamic website</title>
+
+    <style>
+        header{
+            height: 70px;
+            background-color: blueviolet;
+        }
+        footer{
+            height: 400px;
+            background-color: blueviolet;
+        }
+        *{padding: 0;margin: 0;}
+        body {
+            background-color: rgb(115, 157, 194);
+        }
+
+        .news-card {
+            background-color: rgb(43, 217, 233);
+            max-width: 400px;
+            padding: 24px;
+            margin: 40px;
+            max-height: 400px;
+            overflow: scroll;
+
+        }
+
+        img {
+            max-width: 300px;
+            max-height: 300px;
+            margin: auto;
+            align-items: center;
+            display: block;
+        }
+
+        #root {
+            display: grid;
+            grid-template-columns: 450px 450px 450px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div id="root"></div>
+    </main>
+    <footer></footer>
+    
+    <script src="style.js"></script>
+</body>
+</html>
